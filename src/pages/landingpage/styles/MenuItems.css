@@ -1,0 +1,20 @@
+/* src/pages/landingpage/styles/MenuItems.css */
+.menu-items {
+    list-style: none;
+    position: fixed;
+    right: 40px;
+    top: 60px;
+    color: black;
+    background-color: white;
+    font-family: "Open Sans";
+    text-align: left;
+    padding-left: 0; 
+    font-weight: 50;
+}
+.menu-sub-item{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+/* .menu-items {
+    transition: all 3s ease;
+} */

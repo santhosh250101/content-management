@@ -1,0 +1,35 @@
+.landing-container{
+    display:grid;
+    grid-template-rows: 1fr 2fr 6fr;
+    height: 100vh;
+}
+
+/* .landing-container > * {
+  border: 1px solid black;
+} */
+
+.header,.extended-header {
+    background-color: #0F1D4C
+}
+
+  
+
+.landing-body {
+    background: #f3f6fb;
+    margin: 20px;
+}
+.body{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 boxes per row */
+    grid-gap: 5px;
+    height: 300px;
+}
+
+.card {
+    background-color: #4CAF50; /* Color for the box */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
